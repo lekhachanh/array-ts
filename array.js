@@ -1,25 +1,20 @@
-import './scss/styles.scss';
+"use strict";
+exports.__esModule = true;
+require("./scss/styles.scss");
 /**
  * Array
  */
-
 // declare an array
-
-const list: number[] = [1, 2, 3];
-
-const categories: Array<string> =
-  ['Sport', 'IT', 'Car'];
-
+var list = [1, 2, 3];
+var categories = ['Sport', 'IT', 'Car'];
 console.log('list');
-list.forEach((num) =>
-  console.log(num.toFixed(2))
-);
-
+list.forEach(function (num) {
+    return console.log(num.toFixed(2));
+});
 // console.log('categries');
 // categories.forEach((str) =>
 //   console.log(str.includes('a'))
 // );
-
 // // convert mảng từ dạng này sang dạng khác.
 // const listSquare = list.map(num => num * num);
 // console.log(listSquare)
